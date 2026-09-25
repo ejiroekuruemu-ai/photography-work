@@ -1,6 +1,10 @@
 # Dependencies
 node_modules/
 
+# Local Dev Server (Keep local, exclude from Vercel static build)
+server.js
+package.json
+
 # OS metadata
 .DS_Store
 Thumbs.db
